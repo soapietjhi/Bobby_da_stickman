@@ -30,8 +30,8 @@ struct ContentView: View {
             EmojiView(symbol: "💸", size: 35, x: 60,  y: -180)
             EmojiView(symbol: "💸", size: 35, x: 75,  y: -185)
             EmojiView(symbol: "🎀", size: 25, x: -25,  y: -158)
-            EmojiView(symbol: "🛍️", size: 70, x: -100,  y: 60)
-            EmojiView(symbol: "🛍️", size: 70, x: 110,  y: 60)
+            EmojiView(symbol: "🛍️", size: 70, x: -80,  y: 40)
+            EmojiView(symbol: "🛍️", size: 70, x: 80,  y: 40)
             
             
         }
