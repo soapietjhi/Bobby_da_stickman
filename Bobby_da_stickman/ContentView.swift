@@ -52,7 +52,7 @@ struct StickMan: Shape {
 
         // Body line
         let neck = CGPoint(x: headCentre.x, y: headCentre.y + headRadius)
-        let hip = CGPoint(x: headCentre.x, y: neck.y + 90)
+        let hip = CGPoint(x: headCentre.x, y: neck.y + 60)
         p.move(to: neck); p.addLine(to: hip)
 
         // Arms
@@ -64,8 +64,8 @@ struct StickMan: Shape {
         p.addLine(to: rightHand)
 
         // Legs
-        let leftFoot  = CGPoint(x: hip.x - 45, y: hip.y + 90)
-        let rightFoot = CGPoint(x: hip.x + 45, y: hip.y + 90)
+        let leftFoot  = CGPoint(x: hip.x - 20, y: hip.y + 90)
+        let rightFoot = CGPoint(x: hip.x + 20, y: hip.y + 90)
         p.move(to: hip); p.addLine(to: leftFoot)
         p.move(to: hip); p.addLine(to: rightFoot)
 
